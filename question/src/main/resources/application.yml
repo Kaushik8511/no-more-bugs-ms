@@ -1,0 +1,8 @@
+# MongoDB Connection Settings
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/no-more-bugs
+      host: localhost
+      port: 27017
+      database: no-more-bugs
