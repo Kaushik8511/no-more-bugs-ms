@@ -1,0 +1,53 @@
+spring:
+  dataSource:
+    password: kaushik
+    url: jdbc:mysql://localhost:3306/nomorebugs_ms?useSSL=false&serverTimeZone=UTC
+    username: kaushik
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format-sql: true
+    show-sql: true
+    database: mysql
+  application:
+    name: identity
+  
+server:
+  port: 8086
+  servlet:
+    context-path: /nomorebugs/identity
+    
+    
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+      
+
+management:
+  info:
+    env:
+      enabled: true
+      
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
+        
+        
+info:
+  app:
+  name: Authorization server
+  description: Authorization server implementation
+  version: 1.0.0
+  

@@ -1,0 +1,16 @@
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\controller\AnswerController.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\service\AnswerService.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\exception\GlobalExceptionHandler.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\service\impl\AnswerServiceImpl.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\exception\ResourceNotFoundException.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\DTO\RequestAnswerDTO.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\DTO\Comment.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\DTO\RateDTO.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\exception\ApiException.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\DTO\ErrorResponse.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\AnswerApplication.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\client\CommentFeignClient.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\entity\CodeSnippets.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\repository\AnswerRepository.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\DTO\ResponseAnswerDTO.java
+D:\NoMoreBugs\answer\src\main\java\com\answer\api\entity\Answer.java

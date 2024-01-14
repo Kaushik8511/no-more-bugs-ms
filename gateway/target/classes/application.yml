@@ -1,0 +1,32 @@
+spring:
+ cloud:
+   gateway:
+     routes:
+       - id: question
+         uri: lb://question
+         predicates:
+           - Path=/nomorebugs/question/**
+         filters:
+           - AuthenticationFilter
+
+
+       - id: answer
+         uri: lb://answer
+         predicates:
+           - Path=/nomorebugs/answer/**
+         filters:
+           - AuthenticationFilter
+
+       - id: comment
+         uri: lb://comment
+         predicates:
+           - Path=/nomorebugs/comment/**
+         filters:
+           - AuthenticationFilter
+
+
+       - id: identity
+         uri: lb://identity
+         predicates:
+           - Path=/nomorebugs/identity/auth/**
+         

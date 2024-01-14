@@ -1,0 +1,12 @@
+D:\NoMoreBugs\identity\src\main\java\com\identity\api\DTO\AuthenticationResponse.java
+D:\NoMoreBugs\identity\src\main\java\com\identity\api\service\JwtService.java
+D:\NoMoreBugs\identity\src\main\java\com\identity\api\DTO\AuthenticationRequest.java
+D:\NoMoreBugs\identity\src\main\java\com\identity\api\entity\Role.java
+D:\NoMoreBugs\identity\src\main\java\com\identity\api\config\ApplicationConfig.java
+D:\NoMoreBugs\identity\src\main\java\com\identity\api\entity\User.java
+D:\NoMoreBugs\identity\src\main\java\com\identity\api\service\AuthenticationService.java
+D:\NoMoreBugs\identity\src\main\java\com\identity\api\controller\AuthenticationController.java
+D:\NoMoreBugs\identity\src\main\java\com\identity\api\DTO\RegisterRequest.java
+D:\NoMoreBugs\identity\src\main\java\com\identity\api\IdentityApplication.java
+D:\NoMoreBugs\identity\src\main\java\com\identity\api\config\SecurityConfig.java
+D:\NoMoreBugs\identity\src\main\java\com\identity\api\repository\UserRepository.java

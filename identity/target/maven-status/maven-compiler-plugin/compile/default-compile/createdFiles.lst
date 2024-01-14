@@ -1,0 +1,16 @@
+com\identity\api\DTO\RegisterRequest.class
+com\identity\api\config\SecurityConfig.class
+com\identity\api\entity\User$UserBuilder.class
+com\identity\api\entity\User.class
+com\identity\api\service\AuthenticationService.class
+com\identity\api\entity\Role.class
+com\identity\api\controller\AuthenticationController.class
+com\identity\api\DTO\AuthenticationRequest$AuthenticationRequestBuilder.class
+com\identity\api\DTO\RegisterRequest$RegisterRequestBuilder.class
+com\identity\api\DTO\AuthenticationRequest.class
+com\identity\api\DTO\AuthenticationResponse$AuthenticationResponseBuilder.class
+com\identity\api\config\ApplicationConfig.class
+com\identity\api\service\JwtService.class
+com\identity\api\IdentityApplication.class
+com\identity\api\repository\UserRepository.class
+com\identity\api\DTO\AuthenticationResponse.class
